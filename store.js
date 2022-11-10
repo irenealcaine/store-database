@@ -261,6 +261,19 @@ export const products = [
   },
   {
     "id": 191,
+    "title": "JavaScript fácil",
+    "price": 18.81,
+    "description": "Actualmente JavaScript representa uno de los principales lenguajes de la web. El objetivo de este libro será introducir al lector en los principios de la programación y en el uso de JavaScript como lenguaje para inducir dinamismo en una página web. ",
+    "category": "Libros",
+    "image": "https://www.popularlibros.com/imagenes.webp/9788426/978842672168.webp",
+    "stock": true,
+    "rating": {
+      "rate": 10,
+      "count": 217
+    }
+  },
+  {
+    "id": 192,
     "title": "Cortacésped eléctrico 1300 W",
     "price": 75.99,
     "description": "Producto estrella Cortacésped eléctrico 1300 W con ajuste de la altura de corte en 3 niveles: aprox. 20 / 40 / 60 mm.",
@@ -390,6 +403,19 @@ export const products = [
     }
   },
   {
+    "id": 271,
+    "title": "Pijama de adulto",
+    "price": 24.99,
+    "description": "Extremadamente suave, cálido y cómodo. Un diseño adorable te queda perfectamente.",
+    "category": "Ropa",
+    "image": "https://img.ltwebstatic.com/images3_pi/2021/11/20/163737872804d1b14a6dd58df3dc60c2b026aba08a_thumbnail_900x.webp",
+    "stock": true,
+    "rating": {
+      "rate": 3,
+      "count": 345
+    }
+  },
+  {
     "id": 280,
     "title": "Ordenador portátil",
     "price": 1599,
@@ -430,6 +456,19 @@ export const products = [
   },
   {
     "id": 301,
+    "title": "Calcetines World of Warcraft",
+    "price": 13.99,
+    "description": "Calcetines de talla única. Ideales para defender Azeroth con los pies bien calentitos. Versión de la horda.",
+    "category": "Ropa",
+    "image": "https://static.posters.cz/image/750webp/101150.webp",
+    "stock": true,
+    "rating": {
+      "rate": 7.8,
+      "count": 206
+    }
+  },
+  {
+    "id": 302,
     "title": "Taza CSS",
     "price": 24.19,
     "description": "Los sitios web de hoy no existirían sin CSS y, seamos honestos, todos lo sabemos. Para el diseñador web o desarrollador en su vida que ama CSS, ¡esta taza es el regalo perfecto! Es una forma divertida y única de mostrar cuánto aprecias su pasión por hacer sitios web hermosos.",
@@ -517,6 +556,19 @@ export const products = [
     "rating": {
       "rate": 9.6,
       "count": 4516
+    }
+  },
+  {
+    "id": 361,
+    "title": "Si no te ríes, es peor",
+    "price": 13.25,
+    "description": "Si no te ríes, es peor. El gran libro de los chistes es un libro desternillante para llevar a todas partes y compartir con tus amigos. Diviértete con sus chistes, bromas y juegos de palabras que harán reír a quienquiera que se los cuentes. ¿Sabes por qué viene del mar el marisco? ¡Porque si viniera de Francia sería el Francisco!",
+    "category": "Libros",
+    "image": "https://m.media-amazon.com/images/I/51f2wqTp1-L._SX345_BO1,204,203,200_.jpg",
+    "stock": true,
+    "rating": {
+      "rate": 6.6,
+      "count": 22
     }
   }
 ]
