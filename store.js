@@ -787,7 +787,11 @@ export const products = [
   {
     id: 360,
     title: "Manguera",
-    price: 17.99,
+    price: {
+      main: 22.99,
+      offer: 14.99,
+      onSale: true,
+    },
     description:
       "Para regar el césped, las plantas, las flores, las jardineras, los árboles o los arbustos. También puede utilizarse para limpiar los muebles de jardín, la terraza o para lavar los coches.",
     category: "Jardinería",
@@ -802,7 +806,11 @@ export const products = [
   {
     id: 361,
     title: "Si no te ríes, es peor",
-    price: 13.25,
+    price: {
+      main: 12.99,
+      offer: 11.99,
+      onSale: false,
+    },
     description:
       "Si no te ríes, es peor. El gran libro de los chistes es un libro desternillante para llevar a todas partes y compartir con tus amigos. Diviértete con sus chistes, bromas y juegos de palabras que harán reír a quienquiera que se los cuentes. ¿Sabes por qué viene del mar el marisco? ¡Porque si viniera de Francia sería el Francisco!",
     category: "Libros",
