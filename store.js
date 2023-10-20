@@ -429,7 +429,11 @@ export const products = [
   {
     id: 210,
     title: "Mort",
-    price: 13.69,
+    price: {
+      main: 15.99,
+      offer: 17.99,
+      onSale: false,
+    },
     description:
       "En esta entrega, Mortimer es un joven soñador y despistado a quien le toca en suerte una inesperada tarea: convertirse en aprendiz de la Muerte y aplicarse en liberar almas de su envoltura carnal.",
     category: "Libros",
@@ -444,7 +448,11 @@ export const products = [
   {
     id: 220,
     title: "Rosal mini",
-    price: 5.99,
+    price: {
+      main: 5.99,
+      offer: 4.99,
+      onSale: true,
+    },
     description:
       "Los colores se elegirán aleatoriamente entre los más floridos de cada semana a menos que se indique por correo los colores deseados.",
     category: "Jardinería",
@@ -459,7 +467,11 @@ export const products = [
   {
     id: 230,
     title: "Semillas de césped",
-    price: 5.65,
+    price: {
+      main: 5.99,
+      offer: 4.99,
+      onSale: false,
+    },
     description:
       "Se puede utilizar para jardines públicos, privados o campos de deporte",
     category: "Jardinería",
@@ -474,7 +486,11 @@ export const products = [
   {
     id: 240,
     title: "Tarjeta gráfica",
-    price: 599.99,
+    price: {
+      main: 599.99,
+      offer: 579.99,
+      onSale: false,
+    },
     description:
       "Multiprocesadores NVIDIA Ampere Streaming Los componentes básicos de las GPU más rápidas y eficientes del mundo, el nuevo Ampere SM ofrece el doble de rendimiento FP32 y una eficiencia energética mejorada.",
     category: "Electrónica",
@@ -489,7 +505,11 @@ export const products = [
   {
     id: 250,
     title: "Camiseta de hora de aventuras",
-    price: 45.99,
+    price: {
+      main: 22.99,
+      offer: 21.99,
+      onSale: true,
+    },
     description: "Lavar en seco, 100% algodón.",
     category: "Ropa",
     image:
@@ -503,7 +523,11 @@ export const products = [
   {
     id: 251,
     title: "Bonsai Terra",
-    price: 54.58,
+    price: {
+      main: 52.99,
+      offer: 41.99,
+      onSale: false,
+    },
     description: "Árbol artificial de 49cm con maceta negra",
     category: "Jardinería",
     image:
@@ -517,7 +541,11 @@ export const products = [
   {
     id: 260,
     title: "Bolso",
-    price: 5.99,
+    price: {
+      main: 15.99,
+      offer: 13.99,
+      onSale: false,
+    },
     description:
       " El diseño simple en negro puro hace de este bolso un artículo de moda clásico y discreto.",
     category: "Otros",
@@ -532,7 +560,11 @@ export const products = [
   {
     id: 270,
     title: "Aguacate",
-    price: 32.77,
+    price: {
+      main: 18.99,
+      offer: 13.99,
+      onSale: true,
+    },
     description:
       "Clima: necesitan calor y humedad, así que lo ideal es que haya un clima que sea húmedo y cálido durante el verano pero seco y frío en invierno",
     category: "Jardinería",
@@ -547,7 +579,11 @@ export const products = [
   {
     id: 271,
     title: "Pijama de adulto",
-    price: 24.99,
+    price: {
+      main: 24.99,
+      offer: 19.99,
+      onSale: false,
+    },
     description:
       "Extremadamente suave, cálido y cómodo. Un diseño adorable te queda perfectamente.",
     category: "Ropa",
@@ -562,7 +598,11 @@ export const products = [
   {
     id: 280,
     title: "Ordenador portátil",
-    price: 1599,
+    price: {
+      main: 1999.99,
+      offer: 1499.99,
+      onSale: false,
+    },
     description:
       "las aplicaciones se cargan más rápido, los gráficos funcionan mejor y la multitarea es más eficiente en este PC portátil con memoria RAM de 4 GB, tarjeta gráfica integrada Intel UHD y procesador Intel Celeron N4500",
     category: "Electrónica",
@@ -577,7 +617,11 @@ export const products = [
   {
     id: 290,
     title: "Pulsera",
-    price: 455.99,
+    price: {
+      main: 422.99,
+      offer: 389.99,
+      onSale: false,
+    },
     description:
       "Diseñada para perdurar en el tiempo: las joyas Swarovski lucen por si solas gracias al brillo y la talla del cristal junto a los metales más resistentes; evita el agua, las lociones o el perfume.",
     category: "Otros",
@@ -592,7 +636,11 @@ export const products = [
   {
     id: 300,
     title: "Naranjo",
-    price: 15.45,
+    price: {
+      main: 15.99,
+      offer: 10.99,
+      onSale: true,
+    },
     description:
       "Naranjas de sabor suave, equilibrado, dulce y con mucho zumo. La naranja es una fruta con alto contenido en antioxidantes, vitamina C, vitamina B9, potasio, calcio y fósforo",
     category: "Jardinería",
@@ -607,7 +655,11 @@ export const products = [
   {
     id: 301,
     title: "Calcetines World of Warcraft",
-    price: 13.99,
+    price: {
+      main: 2.99,
+      offer: 1.99,
+      onSale: true,
+    },
     description:
       "Calcetines de talla única. Ideales para defender Azeroth con los pies bien calentitos. Versión de la horda.",
     category: "Ropa",
@@ -621,7 +673,11 @@ export const products = [
   {
     id: 302,
     title: "Taza CSS",
-    price: 24.19,
+    price: {
+      main: 20.99,
+      offer: 15.99,
+      onSale: false,
+    },
     description:
       "Los sitios web de hoy no existirían sin CSS y, seamos honestos, todos lo sabemos. Para el diseñador web o desarrollador en su vida que ama CSS, ¡esta taza es el regalo perfecto! Es una forma divertida y única de mostrar cuánto aprecias su pasión por hacer sitios web hermosos.",
     category: "Otros",
@@ -636,7 +692,11 @@ export const products = [
   {
     id: 310,
     title: "El color de la magia",
-    price: 14.55,
+    price: {
+      main: 17.99,
+      offer: 12.99,
+      onSale: true,
+    },
     description:
       "En un mundo plano sostenido por cuatro elefantes impasibles -que se apoyan en la espalda de una tortuga gigante- habitan los estrafalarios personajes de esta novela: un hechicero avaro y torpe, un turista ingenuo cuyo fiero equipaje le sigue a todas partes sostenido por cientos de patitas, dragones que solo existen si se cree en ellos, gremios de ladrones y asesinos, espadas mágicas, la Muerte y, por supuesto, un extenso catálogo de magos y demonios...",
     category: "Libros",
@@ -651,7 +711,11 @@ export const products = [
   {
     id: 320,
     title: "Ebook",
-    price: 23.99,
+    price: {
+      main: 59.99,
+      offer: 39.99,
+      onSale: true,
+    },
     description:
       "Ahora con una pantalla de 6,8 pulgadas, bordes reducidos, luz cálida ajustable, autonomía de hasta 10 semanas y pasos de página un 20 % más rápidos.",
     category: "Electrónica",
@@ -666,7 +730,11 @@ export const products = [
   {
     id: 330,
     title: "Agenda",
-    price: 5.6,
+    price: {
+      main: 5.99,
+      offer: 4.99,
+      onSale: true,
+    },
     description:
       "Duración: Septiembre 2022 - Junio 2023 (curso lectivo) + Julio y Agosto resumidos",
     category: "Otros",
@@ -681,7 +749,11 @@ export const products = [
   {
     id: 340,
     title: "Smartwatch",
-    price: 45.99,
+    price: {
+      main: 45.99,
+      offer: 39.99,
+      onSale: false,
+    },
     description:
       "Durante las actividades diarias y los descansos, los sensores de movimiento de alto rendimiento monitorean la frecuencia cardíaca, el estado del sueño (sueño profundo, sueño superficial, despertar).",
     category: "Electrónica",
@@ -696,7 +768,11 @@ export const products = [
   {
     id: 350,
     title: "Azucenas",
-    price: 7.99,
+    price: {
+      main: 8.99,
+      offer: 5.99,
+      onSale: false,
+    },
     description:
       "Son plantas con órganos subterráneos que sirven para garantizar periódicamente la supervivencia de la especie en la época más desfavorable del año. ",
     category: "Jardinería",
