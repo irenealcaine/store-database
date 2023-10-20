@@ -186,7 +186,11 @@ export const products = [
   {
     id: 100,
     title: "Collar",
-    price: 569,
+    price: {
+      main: 223.99,
+      offer: 189.99,
+      onSale: false,
+    },
     description:
       "Esta cadena esta fabricada en plata de primera ley 925 que le brinda brillo a la joya. La plata de primera ley 925 es hipoalergénico y libre de niquel, haciendo que sea una gran opción para las personas con piel sensible",
     category: "Otros",
@@ -200,7 +204,11 @@ export const products = [
   {
     id: 110,
     title: "Por si las voces vuelven",
-    price: 12.5,
+    price: {
+      main: 20.99,
+      offer: 18.99,
+      onSale: false,
+    },
     description:
       "Hace unos años me rompí por completo. Tanto como para que tuvieran que atarme a la cama de un hospital psiquiátrico para evitar que pudiera hacerme daño.",
     category: "Libros",
@@ -215,7 +223,11 @@ export const products = [
   {
     id: 120,
     title: "2 x RAM",
-    price: 59.99,
+    price: {
+      main: 59.99,
+      offer: 55.99,
+      onSale: false,
+    },
     description:
       "2 x 8 GB. Toma el control con el software corsair icue y sincroniza la iluminación con otros productos corsair rgb, incluyendo sistemas de refrigeración para cpu, teclados y ventiladores",
     category: "Electrónica",
@@ -229,7 +241,11 @@ export const products = [
   {
     id: 130,
     title: "Tacones",
-    price: 699,
+    price: {
+      main: 699.99,
+      offer: 459.99,
+      onSale: true,
+    },
     description:
       "Para mejorar la confiabilidad del talón: Hecha de hilos antideslizantes, la base en la parte inferior de las tapas protectoras del talón brinda tracción adicional para que camine más estable. ",
     category: "Ropa",
@@ -244,7 +260,11 @@ export const products = [
   {
     id: 140,
     title: "Herramientas de jardinería",
-    price: 29.75,
+    price: {
+      main: 20.99,
+      offer: 16.99,
+      onSale: true,
+    },
     description:
       "Herramientas para el jadrdín de aleación de aluminio de alta resistencia, que tiene una fuerte resistencia al óxido y la corrosión. La aleación de aluminio engrosado tiene una gran dureza, es duradera y no se rompe fácilmente.",
     category: "Jardinería",
@@ -259,7 +279,11 @@ export const products = [
   {
     id: 150,
     title: "¡Guardias! ¡Guardias!",
-    price: 11.99,
+    price: {
+      main: 20.99,
+      offer: 15.99,
+      onSale: true,
+    },
     description:
       "La Guardia Nocturna de la ciudad de Ank-Morkpok no tiene mucho trabajo. De los crímenes se ocupan los Gremios de Ladrones y de Asesinos, sin pasarse de una cuota fija al mes, por supuesto.",
     category: "Libros",
@@ -274,7 +298,11 @@ export const products = [
   {
     id: 160,
     title: "Cuaderno",
-    price: 3.69,
+    price: {
+      main: 5.99,
+      offer: 3.99,
+      onSale: false,
+    },
     description:
       "Espiral simple negra, gira las páginas 360° cómodamente. Tapas de plástico duro, ligeras pero resistentes",
     category: "Otros",
@@ -288,7 +316,11 @@ export const products = [
   {
     id: 170,
     title: "Vapeador",
-    price: 45.75,
+    price: {
+      main: 22.99,
+      offer: 19.99,
+      onSale: true,
+    },
     description:
       "-El e-cigarrillo incorporado 2200mAh recargable de batería de litio de alta calidad, que le da una larga vida al cigarrillo electrónico.",
     category: "Electrónica",
@@ -303,7 +335,11 @@ export const products = [
   {
     id: 180,
     title: "Maceta",
-    price: 2.99,
+    price: {
+      main: 5.99,
+      offer: 4.99,
+      onSale: false,
+    },
     description:
       "El diseño simple del macetero para plantas se adapta a casi todos los estilos de decoración.",
     category: "Jardinería",
@@ -318,7 +354,11 @@ export const products = [
   {
     id: 190,
     title: "Camiseta Linux",
-    price: 15,
+    price: {
+      main: 15.99,
+      offer: 13.99,
+      onSale: false,
+    },
     description: "Lavar a mano, lavar a máquina o lavar en seco.",
     category: "Ropa",
     image:
@@ -332,7 +372,11 @@ export const products = [
   {
     id: 191,
     title: "JavaScript fácil",
-    price: 18.81,
+    price: {
+      main: 20.99,
+      offer: 18.99,
+      onSale: true,
+    },
     description:
       "Actualmente JavaScript representa uno de los principales lenguajes de la web. El objetivo de este libro será introducir al lector en los principios de la programación y en el uso de JavaScript como lenguaje para inducir dinamismo en una página web. ",
     category: "Libros",
@@ -347,7 +391,11 @@ export const products = [
   {
     id: 192,
     title: "Cortacésped eléctrico 1300 W",
-    price: 75.99,
+    price: {
+      main: 72.99,
+      offer: 67.99,
+      onSale: false,
+    },
     description:
       "Producto estrella Cortacésped eléctrico 1300 W con ajuste de la altura de corte en 3 niveles: aprox. 20 / 40 / 60 mm.",
     category: "Jardinería",
@@ -362,7 +410,11 @@ export const products = [
   {
     id: 200,
     title: "Anillo",
-    price: 79.79,
+    price: {
+      main: 84.99,
+      offer: 75.99,
+      onSale: true,
+    },
     description:
       "Regalo perfecto para sus amigas, familias, conocidos, compañeras o para usted mismo.",
     category: "Otros",
