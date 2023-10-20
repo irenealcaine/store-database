@@ -7,7 +7,8 @@ export const products = [
       offer: 10.99,
       onSale: false,
     },
-    description: "Collares gemelos de gatos. Cadenas de 55 cm.",
+    description:
+      "Este collar de dos piezas de dos gatos es una monada total. Son dos gatitos adorables en un solo accesorio. Cada gato tiene un diseño detallado y se conectan en el medio. Uno es un minino travieso en tono plateado, y el otro, un gato dorado con una mirada curiosa. Hechos de metal resistente, estos gatitos son robustos y duraderos. El collar es ajustable, por lo que se adapta a cualquier tamaño de cuello. ¡Es la forma perfecta de mostrar tu amor por los gatos y compartirlo con un amigo peludo! ¡No puedes resistirte a estos mininos colgantes!",
     category: "Otros",
     image:
       "https://img.ltwebstatic.com/images3_pi/2022/07/05/1656986624a76cfab8b14d6221b2d7b269213a625f_thumbnail_900x.webp",
@@ -26,7 +27,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Elimina las arrugas e hidrata, deja la piel suave y brillante. De uso diario.",
+      "Esta crema hidratante es como un abrazo para tu piel. ¿Quieres una piel suave y radiante? ¡Esta es tu solución! Esta fórmula mágica está llena de ingredientes ultra hidratantes que dejarán tu piel sintiéndose como la seda. Olvídate de la piel seca y escamosa, esta crema la mima y la consiente. Y lo mejor de todo, se absorbe rapidísimo, sin esa sensación pegajosa que odiamos. Además, el aroma es sutil y delicioso, como si la primavera se hubiera metido en un tubo. No dejes que tu piel sufra más, dale el cariño que se merece con esta crema maravillosa. ¡Pruébala y di adiós a la piel reseca!",
     category: "Otros",
     image:
       "https://t1.ev.ltmcdn.com/es/posts/1/5/3/como_hacer_crema_hidratante_natural_1351_600.jpg",
@@ -45,7 +46,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Apto para jugar a los últimos lanzamientos en 4k y 120 fps. Disfruta de una potencia nunca vista y rendimiento óptimo sin ruido.",
+      "¿Listo para dominar el mundo de los videojuegos? Este portátil gaming es como tu mejor amigo en la batalla virtual. Con un procesador potente que corre más rápido que Flash, gráficos que te sumergen en mundos impresionantes y una pantalla que parece magia (full HD con una velocidad de refresco que hará que tus ojos se enamoren), este chico malo lo tiene todo. Además, el teclado retroiluminado es perfecto para esas sesiones nocturnas de juego. ¿Te preocupa el almacenamiento? Ni lo pienses, porque tiene espacio de sobra para tus juegos, videos y música. No esperes más para darle a tu experiencia gaming un impulso épico con este portátil increíble.",
     category: "Electrónica",
     image:
       "https://img.pccomponentes.com/articles/1037/10370488/1688-acer-nitro-5-an515-57-75m9-intel-core-i7-11800h-16gb-512gb-ssd-rtx-3050ti-156.jpg",
@@ -63,7 +64,8 @@ export const products = [
       offer: 16.99,
       onSale: true,
     },
-    description: "No soy antisocial, soy antiestúpidos.",
+    description:
+      "¡Esta camiseta lo dice todo sin pelos en la lengua! Con el lema 'No soy antisocial, soy antiestúpidos' en negritas llamativas, esta prenda es perfecta para quienes quieren expresar su descontento con los encuentros incómodos. La camiseta está confeccionada en algodón suave como un abrazo, lo que significa comodidad durante todo el día. Ya sea que la uses para enfrentar situaciones sociales incómodas o simplemente para transmitir tu estilo sin disculpas, esta camiseta lo hace con actitud. Además, es tan versátil que combina con jeans, pantalones cortos o lo que quieras. ¡Di adiós a los tontos y sal a la calle con esta camiseta ingeniosa!",
     category: "Ropa",
     image:
       "https://statics.pampling.com/imagenes/galerias/imagen_36135.jpg?1664032400",
@@ -82,7 +84,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "El señor de las moscas es Premio Nobel de Literatura 1983, una fábula moral acerca de la condición humana.Urdida en torno a la situación límite de una treintena de muchachos en una isla desierta, El Señor de las Moscas es una magnífica novela que admite lecturas diferentes e incluso opuestas.",
+      "El libro 'El Señor de las Moscas' es un viaje salvaje a la locura humana. Imagina a un grupo de chicos varados en una isla desierta, sin adultos a la vista. La civilización se desmorona, y los instintos más primitivos emergen. La historia explora la lucha por el poder, la supervivencia y la violencia a medida que los chicos se dividen en facciones y todo se va al infierno. Escrito por William Golding, este clásico literario te dejará reflexionando sobre la naturaleza humana y te mantendrá pegado a las páginas. Una aventura oscura y perturbadora que no podrás soltar. ¡Prepárate para un viaje inolvidable a la isla de la locura!",
     category: "Libros",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTyV8Rmq3yZULQJ1mIRYWiBJC6jqPKAjvm7kngway4w0ykfxLl8RCmh66wJzsfQmncqt-zbhCYJsDAAic4Wp2GXA663u1CeezT_mvnikpZNB7mIYaWw7QGUtQ&usqp=CAE",
@@ -100,7 +102,8 @@ export const products = [
       offer: 15.99,
       onSale: false,
     },
-    description: "Las mejores zapatillas, buenas, bonitas, baratas y famosas.",
+    description:
+      "Estas zapatillas deportivas son como un arcoíris para tus pies. Son el estallido de color que tu vida activa necesita. Con una mezcla de colores vivos, desde el rojo chillón hasta el azul eléctrico, ¡estas zapatillas son una fiesta en tus pies! La suela amortiguada te da una sensación de caminar sobre las nubes, perfecta para esos largos paseos o carreras épicas. Además, el diseño es tan llamativo que te garantizamos que atraerás miradas envidiosas. Ya sea para hacer ejercicio o simplemente para darle un toque de diversión a tu estilo diario, estas zapatillas son la elección perfecta. ¿Quién necesita aburridos zapatos blancos cuando puedes lucir esta explosión de colores? ¡Dale vida a tus pies!",
     category: "Ropa",
     image:
       "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/10/14/16026692592374.jpg",
@@ -119,7 +122,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "8192 niveles de presión, sin demora, cualquier trazo está en su control. La inclinación de 60 grados brinda una mejor detección de presión, de posición del cursor y un mejor rendimiento.",
+      "¡Echa un vistazo a esta tableta gráfica que es como una varita mágica para artistas digitales! Con esta belleza, tu creatividad no tiene límites. Tiene una superficie de dibujo súper suave que es como deslizar un pincel sobre un lienzo virtual. Los niveles de presión son como tener un control total sobre tu lápiz mágico, permitiéndote trazar desde líneas finas y elegantes hasta trazos audaces y enérgicos.",
     category: "Electrónica",
     image: "https://m.media-amazon.com/images/I/610tdKooO-L._AC_SS450_.jpg",
     stock: 25,
@@ -137,7 +140,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Contando con el rediseño de cubierta a cargo del galardonado ilustrador Jonny Duddle, estos libros son una nueva propuesta, muy atractiva, para acercar Harry Potter a todos los públicos: desde coleccionistas hasta los lectores más jóvenes.",
+      "¿Eres un Potterhead de corazón? ¡Esta colección de libros de Harry Potter es un sueño hecho realidad! Incluye los siete tomos mágicos que te transportarán al mundo de Hogwarts, los misterios de Voldemort y las aventuras de Harry, Ron y Hermione. Estos libros son como un billete de ida y vuelta al Expreso de Hogwarts. Con sus portadas icónicas y páginas llenas de hechizos, criaturas mágicas y amistades inquebrantables, te sumergirás en la magia en cada página.",
     category: "Libros",
     image: "https://images-na.ssl-images-amazon.com/images/I/71EiOIwH7cL.jpg",
     stock: 45,
@@ -155,7 +158,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Tipo de material: poliéster y elastano. Es muy cómodo de llevar y es sedoso al tacto.",
+      "¿Buscas un vestido que te haga sentir como una diosa? ¡Este vestido es puro fuego! Con un escote que grita '¡Mírame!' y un corte que abraza tus curvas de manera alucinante, te hará sentir como la reina de la fiesta. La tela es suave como la seda, y el color es un rojo que no pasa desapercibido. La espalda abierta es el toque sexy perfecto, y la falda fluye con cada paso, como si estuvieras caminando sobre nubes de glamour. Ya sea para una noche especial o una ocasión especial, este vestido es el boleto a la confianza total. ¿Lista para brillar? Este vestido lo hace posible.",
     category: "Ropa",
     image: "https://m.media-amazon.com/images/I/61MWCK7c7kL._AC_UX466_.jpg",
     stock: 13,
@@ -173,7 +176,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Planta de ciclo medio, con frutos alargados de color rojo intenso, plantar a finales de verano",
+      "¡Bienvenidos al mundo de la jardinería! Este sobre de semillas de tomate es como un tesoro escondido. En su interior, encontrarás las llaves para cultivar tus propios tomates jugosos y sabrosos. Estas semillas son como pequeños secretos de la naturaleza, esperando transformarse en deliciosos ingredientes para tus ensaladas y salsas caseras.",
     category: "Jardinería",
     image:
       "https://t2.uc.ltmcdn.com/es/posts/1/8/7/como_evitar_plagas_en_las_tomateras_29781_600.jpg",
@@ -192,7 +195,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Esta cadena esta fabricada en plata de primera ley 925 que le brinda brillo a la joya. La plata de primera ley 925 es hipoalergénico y libre de niquel, haciendo que sea una gran opción para las personas con piel sensible",
+      "¡Este collar es la joya que estabas esperando para darle chispa a tu estilo! Es un derroche de elegancia sin esfuerzo, como el toque final que hace que tu look pase de común a espectacular. La cadena es delicada pero resistente, con un brillo sutil que llama la atención. El colgante es una maravilla, un diseño que combina a la perfección la moda moderna y la elegancia clásica. Puedes llevarlo en cualquier ocasión, desde una cena elegante hasta una reunión informal con amigos. Este collar es como una pizca de magia que añade un toque especial a tu día a día. ¡Haz que tu cuello sea el centro de atención!",
     category: "Otros",
     image: "https://www.whiteandone.es/23814-large_default/collar-mama.jpg",
     stock: 36,
@@ -229,7 +232,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "2 x 8 GB. Toma el control con el software corsair icue y sincroniza la iluminación con otros productos corsair rgb, incluyendo sistemas de refrigeración para cpu, teclados y ventiladores",
+      "¡Estas dos tarjetas RAM de 8 GB son el dúo dinámico que tu computadora necesita para volar alto! ¿Te imaginas abrir aplicaciones y archivos más rápido que nunca? La primera tarjeta RAM de 8 GB es como un espresso matutino para tu PC, rápida y efectiva. La segunda tarjeta, otra joya de 8 GB, es como un compañero constante, lista para llevar tu multitarea al siguiente nivel.",
     category: "Electrónica",
     image: "https://thumb.pccomponentes.com/w-530-530/articles/16/164469/1.jpg",
     stock: 0,
@@ -247,7 +250,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Para mejorar la confiabilidad del talón: Hecha de hilos antideslizantes, la base en la parte inferior de las tapas protectoras del talón brinda tracción adicional para que camine más estable. ",
+      "¡Estos zapatos de tacón son el toque mágico que tu armario necesita! Son como la varita mágica para tus pies. El tacón es justo lo suficientemente alto para elevar tu estilo, pero no tanto como para sentirte como si estuvieras en una película de ciencia ficción. La comodidad es clave, ¡así que puedes lucir fabulosa sin sacrificar la comodidad! La suela acolchada es como caminar sobre nubes, y la correa en el tobillo te da la estabilidad que necesitas para conquistar el mundo.",
     category: "Ropa",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSLC_QmQbqpBy8DXqTjUKH9DU1KhDIy0HDNW95HlztokjUyjhTzL1E1DL6bt8Zs92RvaX75qBBsLaRxixCHdWRihJGbFP6sSi7OU07cJziKN6xtLbjHEHjRl-c&usqp=CAE",
@@ -266,7 +269,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Herramientas para el jadrdín de aleación de aluminio de alta resistencia, que tiene una fuerte resistencia al óxido y la corrosión. La aleación de aluminio engrosado tiene una gran dureza, es duradera y no se rompe fácilmente.",
+      "Este kit es como el comodín en tu manga para enfrentar cualquier desafío de jardinería. Desde sembrar flores hasta deshacerte de esas malas hierbas rebeldes, estas herramientas son tu ejército verde. Además, el soporte para herramientas incluido es como el toque de organización que tu garaje necesita. Así que, ya sea que seas un jardinero novato o un profesional en la materia, estas herramientas son tu boleto para un jardín impresionante. ¡Hora de poner esas manos a trabajar!",
     category: "Jardinería",
     image:
       "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfugYPrtEe64sfOxOnYTzuW-dOW6_5Pu280FTrX2OnZBhqhcDbNht2BGR2tMJS-c9irbbKIkp-CWz60bSzf_VzHOYzlBgBV1oUAr6ZX4ykj0mBUHCUxrcQ&usqp=CAE",
@@ -285,7 +288,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "La Guardia Nocturna de la ciudad de Ank-Morkpok no tiene mucho trabajo. De los crímenes se ocupan los Gremios de Ladrones y de Asesinos, sin pasarse de una cuota fija al mes, por supuesto.",
+      "'¡Guardias, Guardias!' es el libro de Terry Pratchett que te hará rodar de risa y repensar la fantasía. En el colorido y disparatado mundo del Mundodisco, donde los dragones no son tan amigables como mascotas, la Guardia Nocturna de Ankh-Morpork se enfrenta a un enemigo inusual: un dragón que lanza fuego y un grupo de inadaptados. ¿Puede un pato de ciudad convertirse en héroe?",
     category: "Libros",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRS2bg8CwaPBhTQWrIC1Ji9q3M1a8KlsaxKUzQnj5DK1g4BcZYGJSSqXxb8q-ngXnyHfD9NV8CyFLkLPXU8ZRdrxZ5NUA0JSi_bD4o0N8kL&usqp=CAE",
@@ -304,7 +307,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Espiral simple negra, gira las páginas 360° cómodamente. Tapas de plástico duro, ligeras pero resistentes",
+      "¡Este cuaderno es como tu compañero de aventuras en papel! Con su tapa dura resistente, es un guerrero contra los embates del mundo real. Puedes llevarlo contigo a todas partes sin preocuparte de arrugas ni raspaduras. El papel en su interior es suave, como un abrazo para tus ideas. Esa sensación de pluma deslizándose sobre la página en blanco es casi terapéutica.",
     category: "Otros",
     image: "https://frikispaceshop.com/wp-content/uploads/2021/08/10-1.jpg",
     stock: 10,
