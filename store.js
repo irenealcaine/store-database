@@ -113,7 +113,11 @@ export const products = [
   {
     id: 60,
     title: "Tableta gráfica",
-    price: 59.99,
+    price: {
+      main: 59.99,
+      offer: 55.99,
+      onSale: false,
+    },
     description:
       "8192 niveles de presión, sin demora, cualquier trazo está en su control. La inclinación de 60 grados brinda una mejor detección de presión, de posición del cursor y un mejor rendimiento.",
     category: "Electrónica",
@@ -127,7 +131,11 @@ export const products = [
   {
     id: 70,
     title: "Harry Potter",
-    price: 159.99,
+    price: {
+      main: 169.99,
+      offer: 149.99,
+      onSale: false,
+    },
     description:
       "Contando con el rediseño de cubierta a cargo del galardonado ilustrador Jonny Duddle, estos libros son una nueva propuesta, muy atractiva, para acercar Harry Potter a todos los públicos: desde coleccionistas hasta los lectores más jóvenes.",
     category: "Libros",
@@ -141,7 +149,11 @@ export const products = [
   {
     id: 80,
     title: "Vestido",
-    price: 12,
+    price: {
+      main: 16.99,
+      offer: 12.99,
+      onSale: true,
+    },
     description:
       "Tipo de material: poliéster y elastano. Es muy cómodo de llevar y es sedoso al tacto.",
     category: "Ropa",
@@ -155,13 +167,17 @@ export const products = [
   {
     id: 90,
     title: "Semillas de tomate",
-    price: 1.25,
+    price: {
+      main: 2.99,
+      offer: 1.99,
+      onSale: false,
+    },
     description:
       "Planta de ciclo medio, con frutos alargados de color rojo intenso, plantar a finales de verano",
     category: "Jardinería",
     image:
       "https://t2.uc.ltmcdn.com/es/posts/1/8/7/como_evitar_plagas_en_las_tomateras_29781_600.jpg",
-    stock: false,
+    stock: 0,
     rating: {
       rate: 8.3,
       count: 200,
@@ -175,7 +191,7 @@ export const products = [
       "Esta cadena esta fabricada en plata de primera ley 925 que le brinda brillo a la joya. La plata de primera ley 925 es hipoalergénico y libre de niquel, haciendo que sea una gran opción para las personas con piel sensible",
     category: "Otros",
     image: "https://www.whiteandone.es/23814-large_default/collar-mama.jpg",
-    stock: true,
+    stock: 36,
     rating: {
       rate: 7.6,
       count: 63,
@@ -190,7 +206,7 @@ export const products = [
     category: "Libros",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ-cUqpipzxIe-0ZZMZTw3uMG6cBFANV3pHt2_P2zHlEF47RXMn1vtSkZKpzwBba9HO2tFYYsMgHKAyoUnaqeDKZL8LKQLyDCxAs8Y5Tuw&usqp=CAE",
-    stock: true,
+    stock: 17,
     rating: {
       rate: 8.9,
       count: 1503,
@@ -204,7 +220,7 @@ export const products = [
       "2 x 8 GB. Toma el control con el software corsair icue y sincroniza la iluminación con otros productos corsair rgb, incluyendo sistemas de refrigeración para cpu, teclados y ventiladores",
     category: "Electrónica",
     image: "https://thumb.pccomponentes.com/w-530-530/articles/16/164469/1.jpg",
-    stock: false,
+    stock: 0,
     rating: {
       rate: 3.4,
       count: 6,
@@ -219,7 +235,7 @@ export const products = [
     category: "Ropa",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSLC_QmQbqpBy8DXqTjUKH9DU1KhDIy0HDNW95HlztokjUyjhTzL1E1DL6bt8Zs92RvaX75qBBsLaRxixCHdWRihJGbFP6sSi7OU07cJziKN6xtLbjHEHjRl-c&usqp=CAE",
-    stock: true,
+    stock: 56,
     rating: {
       rate: 2.2,
       count: 63,
@@ -234,7 +250,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfugYPrtEe64sfOxOnYTzuW-dOW6_5Pu280FTrX2OnZBhqhcDbNht2BGR2tMJS-c9irbbKIkp-CWz60bSzf_VzHOYzlBgBV1oUAr6ZX4ykj0mBUHCUxrcQ&usqp=CAE",
-    stock: true,
+    stock: 41,
     rating: {
       rate: 6.7,
       count: 23,
@@ -249,7 +265,7 @@ export const products = [
     category: "Libros",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRS2bg8CwaPBhTQWrIC1Ji9q3M1a8KlsaxKUzQnj5DK1g4BcZYGJSSqXxb8q-ngXnyHfD9NV8CyFLkLPXU8ZRdrxZ5NUA0JSi_bD4o0N8kL&usqp=CAE",
-    stock: true,
+    stock: 122,
     rating: {
       rate: 9.8,
       count: 6334,
@@ -263,7 +279,7 @@ export const products = [
       "Espiral simple negra, gira las páginas 360° cómodamente. Tapas de plástico duro, ligeras pero resistentes",
     category: "Otros",
     image: "https://frikispaceshop.com/wp-content/uploads/2021/08/10-1.jpg",
-    stock: true,
+    stock: 10,
     rating: {
       rate: 5.9,
       count: 651,
@@ -278,7 +294,7 @@ export const products = [
     category: "Electrónica",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQNl7RmFlWWIVaTZmd1PBCoDANQ8KLaNroK5cnBrw3oRWNOG26BPqyz2eje4P1S7zZ3qAvJN0NIzdoAYbI-QMbp0w6w9jWrMqVMD8g8WmJWtsa4bUZJ3GrI87uL&usqp=CAE",
-    stock: true,
+    stock: 96,
     rating: {
       rate: 4.7,
       count: 126,
@@ -293,7 +309,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://st.depositphotos.com/1177973/4693/i/450/depositphotos_46931483-stock-photo-clay-flower-pot-with-soil.jpg",
-    stock: true,
+    stock: 45,
     rating: {
       rate: 9.0,
       count: 1547,
@@ -307,7 +323,7 @@ export const products = [
     category: "Ropa",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRF8IR-iJnofrygZVYmIR4lY8zFrkS5KYYqNs88bScritKuDBhoNE4OH9EUPTVHRGFyqjc0HZEUEFH0LfyGHqWJB3aJ5VGu9pMGRgqyJkca1j3QnP63oEbW&usqp=CAE",
-    stock: false,
+    stock: 0,
     rating: {
       rate: 9.8,
       count: 6514,
@@ -322,7 +338,7 @@ export const products = [
     category: "Libros",
     image:
       "https://www.popularlibros.com/imagenes.webp/9788426/978842672168.webp",
-    stock: true,
+    stock: 3,
     rating: {
       rate: 10,
       count: 217,
@@ -337,7 +353,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSQ1uMh6tOgFieWTbtj8ewKHJ9JnE8ZZ5oyTCcS9QAFkc5cmSYkOtvsKZrjV8ulk7fq1nUvKAwoJh8Hb-pGehFwP0UYdHf2CRlouBT_IXk-IMm4wdVPJk3Vs1I&usqp=CAE",
-    stock: true,
+    stock: 42,
     rating: {
       rate: 6.2,
       count: 27,
@@ -352,7 +368,7 @@ export const products = [
     category: "Otros",
     image:
       "https://media.trensjoies.com/product/anillo-serpiente-plata-de-ley-800x800.jpg",
-    stock: true,
+    stock: 21,
     rating: {
       rate: 9.9,
       count: 5,
@@ -367,7 +383,7 @@ export const products = [
     category: "Libros",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ3hWCsal6zwy4mftPp60gAKwCCIQVTXI0g0PPES0KduUYBfZaDLoxJby9ApuqXTJ6aitZOE6YwHgzlGLNVesRyBXORSTJwBb13D9p-um8&usqp=CAE",
-    stock: true,
+    stock: 34,
     rating: {
       rate: 9.9,
       count: 45,
@@ -382,7 +398,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSmaovHYuDxRwovP7ZQZz9-IGq3kmzcjBaBtCgNrYY0kL5aOKZB4ACYponLvQgG4qjQIihQ6MN9gW9Cz9KNPmlBGcTpkneWf7DkZi3fAX7HEPMajNQ_USr_Lg&usqp=CAE",
-    stock: false,
+    stock: 0,
     rating: {
       rate: 8.7,
       count: 55,
@@ -397,7 +413,7 @@ export const products = [
     category: "Jardinería",
     image:
       "http://i1.wp.com/abonosconde.com/wp-content/uploads/2016/03/semilla-cesped-800x600.jpg",
-    stock: true,
+    stock: 71,
     rating: {
       rate: 8.9,
       count: 321,
@@ -412,7 +428,7 @@ export const products = [
     category: "Electrónica",
     image:
       "https://img.pccomponentes.com/articles/43/432064/1343-gigabyte-geforce-rtx-3060-gaming-oc-12gb-gddr6-rev-20.jpg",
-    stock: true,
+    stock: 23,
     rating: {
       rate: 4.6,
       count: 5,
@@ -426,7 +442,7 @@ export const products = [
     category: "Ropa",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRqbZbu0BwKvoWQGWmSJNwrML17aKZfUllctyNTxrAUTQKXJq_zJnsjMsd5qhKJpKy2DRYYiYKbjA4WlK4V1T4U-SMDTikm3rwb7jMMSKufDUtqjRWrB_UThw&usqp=CAE",
-    stock: true,
+    stock: 13,
     rating: {
       rate: 8.1,
       count: 44,
@@ -440,7 +456,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://cdn.shopify.com/s/files/1/0550/9002/0422/products/FotosfotografoformatoWEB30_720x.jpg?v=1666879922",
-    stock: true,
+    stock: 14,
     rating: {
       rate: 4.1,
       count: 14,
@@ -455,7 +471,7 @@ export const products = [
     category: "Otros",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRYnCdWwhn9VHFzQ2pRBO0J2d7rWeP0ereuRZ7J7Yxo-y_HaqeIq0RUGlgGGpSOqnPzczBNexr3Ilbz4yIoDrYvA2_ENR4CPk5tx9TnoD4&usqp=CAE",
-    stock: true,
+    stock: 17,
     rating: {
       rate: 5.7,
       count: 645,
@@ -470,7 +486,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://cdn2.planetahuerto.es/estaticos/imagenes/ficha/121822/121822_1.jpg?fit=crop&w=256&h=256&auto=format&q=100",
-    stock: true,
+    stock: 34,
     rating: {
       rate: 9,
       count: 45,
@@ -485,7 +501,7 @@ export const products = [
     category: "Ropa",
     image:
       "https://img.ltwebstatic.com/images3_pi/2021/11/20/163737872804d1b14a6dd58df3dc60c2b026aba08a_thumbnail_900x.webp",
-    stock: true,
+    stock: 9,
     rating: {
       rate: 3,
       count: 345,
@@ -500,7 +516,7 @@ export const products = [
     category: "Electrónica",
     image:
       "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/in3520-xnb-01-sl.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,1&resMode=sharp2&size=402,402&chrss=full",
-    stock: false,
+    stock: 39,
     rating: {
       rate: 7.7,
       count: 6,
@@ -515,7 +531,7 @@ export const products = [
     category: "Otros",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTVOeNkoJ8VitwNrlFwkweTnmANVjVajVmVmtymmZCaEsID_Knr1sSbaD1fakibdcHFLndi1f2-ZFcCEFQSLmXtLbOCWa8ibg&usqp=CAY",
-    stock: true,
+    stock: 3,
     rating: {
       rate: 8.7,
       count: 2,
@@ -530,7 +546,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://decoandlemon.com/media/catalog/product/cache/3ad20444762bbdde6309c9935a0d8d33/7/4/74020033_1.jpg",
-    stock: true,
+    stock: 7,
     rating: {
       rate: 8,
       count: 44,
@@ -544,7 +560,7 @@ export const products = [
       "Calcetines de talla única. Ideales para defender Azeroth con los pies bien calentitos. Versión de la horda.",
     category: "Ropa",
     image: "https://static.posters.cz/image/750webp/101150.webp",
-    stock: true,
+    stock: 54,
     rating: {
       rate: 7.8,
       count: 206,
@@ -559,7 +575,7 @@ export const products = [
     category: "Otros",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRZ2T1-8KRFWwA86fyfomQt07aHYyk1Yt4u38KfRO5Dlbt5VT33vJY6rzWyRPhB-5x5hdinAoTwyrQsijNw8socDSWLnYPi5_lt50D3O3Kaf5FJyDueUaVHy_S2&usqp=CAE",
-    stock: false,
+    stock: 0,
     rating: {
       rate: 10,
       count: 4426,
@@ -574,7 +590,7 @@ export const products = [
     category: "Libros",
     image:
       "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAovZponiUVlo7iDcgOTS5BzYGtXIi1xYEM0TgjqeW5wVN4KwtjjI44aZ_srznwC4TcW4c0Uee2O_ZwVtcJmVO8ni4rLd-deuzyipyd0wIxO-EIzCgGYd7Qw&usqp=CAE",
-    stock: true,
+    stock: 7,
     rating: {
       rate: 9.7,
       count: 5345,
@@ -589,7 +605,7 @@ export const products = [
     category: "Electrónica",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4Zjn6A957H_o9yWKj14dVnudevuzclBWDtqUovF8zE62f1oTmW0nuTM8LxnW0j37upUXpalvUM4fYKKUgDmXEr072L4jsK01gYt_jRffApkafrOyPKaCuTA&usqp=CAE",
-    stock: true,
+    stock: 3,
     rating: {
       rate: 7.0,
       count: 44,
@@ -604,7 +620,7 @@ export const products = [
     category: "Otros",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzgANDfQhq9YTZACQXTtwQn62l16NHCCApszF7SUh9XmEsZeVikuERkNnHWYneJ8jtCrqKOJ2UpQi6vM4274UKdsM_EGzishuAbDN-UmBg1N1XzjRAnRVQ&usqp=CAE",
-    stock: true,
+    stock: 42,
     rating: {
       rate: 8.0,
       count: 4377,
@@ -619,7 +635,7 @@ export const products = [
     category: "Electrónica",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSXw7_EkpwH2VyLTNNJ5WC0bZ6b6mI9xu7vb7z6IetVWIFJS1J7nZMWsGxSH2-csv0EOZn520eFzCeRjJaCV13D6CD6K1Tbo4ySzXfs-n46sf-HUMFTljQZ",
-    stock: true,
+    stock: 3,
     rating: {
       rate: 6.7,
       count: 47,
@@ -634,7 +650,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRVLFW4XzOP-1d8gvhnI9RiYXxlAXjFGsuiUTdnoeSmtjgz7iZptUkAxZRLo--nhecn4fOaIZ8FoeAIe8d0i30yeaZrGy0CHiu1R1ymvSQUkbulmFIg8IdP&usqp=CAE",
-    stock: true,
+    stock: 7,
     rating: {
       rate: 8.8,
       count: 456,
@@ -649,7 +665,7 @@ export const products = [
     category: "Jardinería",
     image:
       "https://cdn.shopify.com/s/files/1/0249/3674/2966/products/7_5mexpandablegardenhosewithspraygun_1_2000x.jpg?v=1650146713",
-    stock: true,
+    stock: 17,
     rating: {
       rate: 9.6,
       count: 4516,
@@ -664,7 +680,7 @@ export const products = [
     category: "Libros",
     image:
       "https://m.media-amazon.com/images/I/51f2wqTp1-L._SX345_BO1,204,203,200_.jpg",
-    stock: true,
+    stock: 34,
     rating: {
       rate: 6.6,
       count: 22,
