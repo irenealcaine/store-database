@@ -4,13 +4,14 @@ export const products = [
     title: "Collar de gatos 2 piezas",
     price: {
       main: 12.99,
-      offer: 12.99,
+      offer: 10.99,
+      onSale: false,
     },
     description: "Collares gemelos de gatos. Cadenas de 55 cm.",
     category: "Otros",
     image:
       "https://img.ltwebstatic.com/images3_pi/2022/07/05/1656986624a76cfab8b14d6221b2d7b269213a625f_thumbnail_900x.webp",
-    stock: false,
+    stock: 0,
     rating: {
       rate: 2.3,
       count: 124,
@@ -19,13 +20,17 @@ export const products = [
   {
     id: 10,
     title: "Crema hidratante",
-    price: 3.5,
+    price: {
+      main: 3.99,
+      offer: 1.99,
+      onSale: false,
+    },
     description:
       "Elimina las arrugas e hidrata, deja la piel suave y brillante. De uso diario.",
     category: "Otros",
     image:
       "https://t1.ev.ltmcdn.com/es/posts/1/5/3/como_hacer_crema_hidratante_natural_1351_600.jpg",
-    stock: true,
+    stock: 20,
     rating: {
       rate: 9.8,
       count: 1536,
@@ -34,13 +39,17 @@ export const products = [
   {
     id: 20,
     title: "Portátil gaming",
-    price: 1499,
+    price: {
+      main: 1499,
+      offer: 1299,
+      onSale: true,
+    },
     description:
       "Apto para jugar a los últimos lanzamientos en 4k y 120 fps. Disfruta de una potencia nunca vista y rendimiento óptimo sin ruido.",
     category: "Electrónica",
     image:
       "https://img.pccomponentes.com/articles/1037/10370488/1688-acer-nitro-5-an515-57-75m9-intel-core-i7-11800h-16gb-512gb-ssd-rtx-3050ti-156.jpg",
-    stock: true,
+    stock: 56,
     rating: {
       rate: 9.5,
       count: 25,
@@ -49,12 +58,16 @@ export const products = [
   {
     id: 30,
     title: "Camiseta antisocial",
-    price: 16.99,
+    price: {
+      main: 16.99,
+      offer: 16.99,
+      onSale: true,
+    },
     description: "No soy antisocial, soy antiestúpidos.",
     category: "Ropa",
     image:
       "https://statics.pampling.com/imagenes/galerias/imagen_36135.jpg?1664032400",
-    stock: true,
+    stock: 23,
     rating: {
       rate: 8.7,
       count: 215,
@@ -63,7 +76,11 @@ export const products = [
   {
     id: 40,
     title: "El señor de las moscas",
-    price: 8.75,
+    price: {
+      main: 10.99,
+      offer: 9.99,
+      onSale: false,
+    },
     description:
       "El señor de las moscas es Premio Nobel de Literatura 1983, una fábula moral acerca de la condición humana.Urdida en torno a la situación límite de una treintena de muchachos en una isla desierta, El Señor de las Moscas es una magnífica novela que admite lecturas diferentes e incluso opuestas.",
     category: "Libros",
@@ -78,12 +95,16 @@ export const products = [
   {
     id: 50,
     title: "Zapatillas",
-    price: 19.99,
+    price: {
+      main: 16.99,
+      offer: 15.99,
+      onSale: false,
+    },
     description: "Las mejores zapatillas, buenas, bonitas, baratas y famosas.",
     category: "Ropa",
     image:
       "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/10/14/16026692592374.jpg",
-    stock: false,
+    stock: 0,
     rating: {
       rate: 12,
       count: 666,
