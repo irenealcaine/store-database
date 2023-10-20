@@ -118,7 +118,7 @@ export const products = [
       "8192 niveles de presión, sin demora, cualquier trazo está en su control. La inclinación de 60 grados brinda una mejor detección de presión, de posición del cursor y un mejor rendimiento.",
     category: "Electrónica",
     image: "https://m.media-amazon.com/images/I/610tdKooO-L._AC_SS450_.jpg",
-    stock: true,
+    stock: 25,
     rating: {
       rate: 7.8,
       count: 213,
@@ -132,7 +132,7 @@ export const products = [
       "Contando con el rediseño de cubierta a cargo del galardonado ilustrador Jonny Duddle, estos libros son una nueva propuesta, muy atractiva, para acercar Harry Potter a todos los públicos: desde coleccionistas hasta los lectores más jóvenes.",
     category: "Libros",
     image: "https://images-na.ssl-images-amazon.com/images/I/71EiOIwH7cL.jpg",
-    stock: true,
+    stock: 45,
     rating: {
       rate: 9.6,
       count: 1532,
@@ -146,7 +146,7 @@ export const products = [
       "Tipo de material: poliéster y elastano. Es muy cómodo de llevar y es sedoso al tacto.",
     category: "Ropa",
     image: "https://m.media-amazon.com/images/I/61MWCK7c7kL._AC_UX466_.jpg",
-    stock: true,
+    stock: 13,
     rating: {
       rate: 8.4,
       count: 63,
