@@ -56,7 +56,19 @@
     .price {
       font-size: 2rem;
       font-weight: bold;
-      padding: 1rem;
+      padding: .2rem;
+      color: #0d9488
+    }
+
+    .offered {
+      font-size: 1rem;
+      font-weight: normal;
+      padding: 0rem;
+      color: grey;
+    }
+
+    .offer {
+      text-decoration: line-through;
     }
 
     .rating {
@@ -84,7 +96,6 @@
       font-size: 0.6rem;
       color: #115e59;
     }
-
   </style>
 </head>
 
@@ -94,30 +105,34 @@
   <script type="module">
     import { products } from './store.js'
     const container = document.getElementById('container')
-    let productsItems = ``
 
     function showProducts() {
-      products.forEach((product, id) => {
-        let { title, image, price, description, category, rating } = product
-        productsItems += `
-        <div class="card">
-          <p class="title">${title}</p>
-          <img src=${image} alt="${title}" class="image"></img>
-          <p class="price">${price.toFixed(2)}€</p>
-          <div class="rating">
-            <p class="rate">${rating.rate.toFixed(1)}/10⭐</p>
-            <pclass="count">${rating.count} vendidos</pclass=>
-          </div>
-          <p class="description">${description}</p>
-          <p class="category">Categoría: ${category}</p>
-        </div>
-        `
-      })
+      let productsItems = '';
 
-      container.innerHTML = productsItems
+      products.forEach((product, id) => {
+
+        let { title, image, price, description, category, rating } = product
+
+        productsItems += `
+          <div class="card">
+            <p class="title">${title}</p>
+            <img src="${image}" alt="${title}" class="image" />
+            <p class="price ${price.onSale ? 'offered' : ''}"><span class="${price.onSale ? 'offer' : ''}">${price.main.toFixed(2)} €</span> ${price.onSale ? `(${(((price.offer - price.main) / price.main) * 100).toFixed(0)}%)` : ''}</p>
+            ${price.onSale ? `<p class="price">${price.offer.toFixed(2)}€</p>` : ''}
+            <div class="rating">
+              <p class="rate">${rating.rate.toFixed(1)}/10⭐</p>
+              <p class="count">${rating.count} vendidos</p>
+            </div>
+            <p class="description">${description}</p>
+            <p class="category">Categoría: ${category}</p>
+          </div>
+          `;
+      });
+
+      container.innerHTML = productsItems;
     }
 
-    showProducts()
+    showProducts();
 
   </script>
 </body>

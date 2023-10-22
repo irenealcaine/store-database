@@ -61,7 +61,7 @@ export const products = [
     title: "Camiseta antisocial",
     price: {
       main: 16.99,
-      offer: 16.99,
+      offer: 15.99,
       onSale: true,
     },
     description:
