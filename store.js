@@ -325,7 +325,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "-El e-cigarrillo incorporado 2200mAh recargable de batería de litio de alta calidad, que le da una larga vida al cigarrillo electrónico.",
+      "Este vapeador es la clave para un mundo de vapor delicioso en tus manos. Compacto, elegante y lleno de sabor, es como tu pase VIP a las nubes sin necesidad de salir de casa. Su diseño ergonómico se adapta perfectamente a tu mano, y su batería de larga duración significa que no te dejará colgado en el momento crucial. Con un tanque fácil de llenar, puedes personalizar tu experiencia a tu antojo. Así que, ya sea que estés buscando dejar de fumar o simplemente disfrutar de un dulce escape, este vapeador te lleva a una experiencia de vapeo como ninguna otra. ¡Prepárate para disfrutar y relajarte!",
     category: "Electrónica",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQNl7RmFlWWIVaTZmd1PBCoDANQ8KLaNroK5cnBrw3oRWNOG26BPqyz2eje4P1S7zZ3qAvJN0NIzdoAYbI-QMbp0w6w9jWrMqVMD8g8WmJWtsa4bUZJ3GrI87uL&usqp=CAE",
@@ -344,7 +344,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "El diseño simple del macetero para plantas se adapta a casi todos los estilos de decoración.",
+      "Esta maceta es como el trono de tu planta verde favorita. Con su diseño clásico y resistente, es la casa perfecta para que tu planta se luzca. Fabricada con material duradero, puedes estar seguro de que resistirá tormentas, vientos o incluso olvidos de riego. El tamaño es ideal para cualquier rincón de tu hogar, desde la sala de estar hasta la terraza. Además, su aspecto atemporal combina con cualquier decoración, desde lo bohemio hasta lo minimalista. Así que, si quieres que tu planta se sienta como la reina que es, esta maceta es la elección perfecta. ¡Un trono verde para tu rincón feliz!",
     category: "Jardinería",
     image:
       "https://st.depositphotos.com/1177973/4693/i/450/depositphotos_46931483-stock-photo-clay-flower-pot-with-soil.jpg",
@@ -362,7 +362,8 @@ export const products = [
       offer: 13.99,
       onSale: false,
     },
-    description: "Lavar a mano, lavar a máquina o lavar en seco.",
+    description:
+      "¿Eres un amante de Linux? ¡Entonces, esta camiseta es tu uniforme de superusuario! Con el icónico logotipo de Tux, el pingüino mascota de Linux, en el pecho, esta camiseta es como una declaración de amor al código abierto. Fabricada con algodón suave como un abrazo, te mantendrá cómodo mientras exploras el mundo de la programación o simplemente haces alarde de tu pasión por Linux. Es la elección perfecta para cualquier reunión geek, conferencia de tecnología o solo para relajarte en casa mientras compilas tus proyectos favoritos. ¡Demuestra al mundo que eres parte de la comunidad de Linux con estilo!",
     category: "Ropa",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRF8IR-iJnofrygZVYmIR4lY8zFrkS5KYYqNs88bScritKuDBhoNE4OH9EUPTVHRGFyqjc0HZEUEFH0LfyGHqWJB3aJ5VGu9pMGRgqyJkca1j3QnP63oEbW&usqp=CAE",
@@ -381,7 +382,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Actualmente JavaScript representa uno de los principales lenguajes de la web. El objetivo de este libro será introducir al lector en los principios de la programación y en el uso de JavaScript como lenguaje para inducir dinamismo en una página web. ",
+      "¿Quieres convertirte en un mago del código? Este libro para aprender JavaScript es tu varita mágica. Desde los conceptos básicos hasta los trucos avanzados, te guiará a través del mundo de la programación web de manera fácil y divertida. Con ejemplos prácticos, proyectos emocionantes y explicaciones sencillas, te llevará de ser un principiante a un maestro de JavaScript en un abrir y cerrar de ojos. No importa si eres un aspirante a desarrollador web o un curioso por naturaleza, este libro es tu pasaporte al emocionante universo de la programación. ¡Prepárate para darle vida a tus ideas en la web y sorprender al mundo con tu dominio de JavaScript!",
     category: "Libros",
     image:
       "https://www.popularlibros.com/imagenes.webp/9788426/978842672168.webp",
@@ -400,7 +401,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Producto estrella Cortacésped eléctrico 1300 W con ajuste de la altura de corte en 3 niveles: aprox. 20 / 40 / 60 mm.",
+      "¿Cansado de lidiar con ese césped salvaje? ¡Este cortacésped eléctrico de 1300 W es como tu héroe del jardín! Con su potente motor, te permite despedirte de la hierba alta en un abrir y cerrar de ojos. Además, olvídate de los problemas de arranque, no más maldiciones a la cuerda. Solo enchufa y listo para cortar. Su diseño compacto y fácil de maniobrar hace que cortar el césped sea pan comido, incluso en esos rincones difíciles. Y lo mejor, es más silencioso que un vecino charlatán un domingo por la mañana. Así que si quieres recuperar tu jardín y tus oídos, este cortacésped es tu caballero en brillante armadura. ¡Hora de hacer que tu césped luzca fabuloso!",
     category: "Jardinería",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSQ1uMh6tOgFieWTbtj8ewKHJ9JnE8ZZ5oyTCcS9QAFkc5cmSYkOtvsKZrjV8ulk7fq1nUvKAwoJh8Hb-pGehFwP0UYdHf2CRlouBT_IXk-IMm4wdVPJk3Vs1I&usqp=CAE",
@@ -419,7 +420,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Regalo perfecto para sus amigas, familias, conocidos, compañeras o para usted mismo.",
+      "¡Este anillo es como un abrazo para tu dedo! Con un diseño elegante y atemporal, es el toque perfecto para cualquier ocasión. Hecho de metal de alta calidad, este anillo es resistente y duradero, como una promesa que nunca se rompe. El detalle en relieve en la superficie le agrega un toque de sofisticación, pero no es demasiado llamativo. Puedes llevarlo todos los días o reservarlo para ocasiones especiales, ¡la elección es tuya! Ya sea que quieras lucir elegante en la oficina o darle un toque de glamour a tu atuendo de fin de semana, este anillo es tu accesorio imprescindible. ¡Haz que tus dedos se sientan especiales!",
     category: "Otros",
     image:
       "https://media.trensjoies.com/product/anillo-serpiente-plata-de-ley-800x800.jpg",
@@ -438,7 +439,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "En esta entrega, Mortimer es un joven soñador y despistado a quien le toca en suerte una inesperada tarea: convertirse en aprendiz de la Muerte y aplicarse en liberar almas de su envoltura carnal.",
+      "'Mort' es un viaje salvajemente divertido a un mundo de fantasía donde la Muerte tiene un problema muy inusual: un aprendiz llamado Mort. Este libro de Terry Pratchett te lleva a un reino donde los relojes solares se olvidan, los caballos hablan y las parcas tienen un sentido del humor extraño. Mort es un chico común que se convierte en el aprendiz de la Muerte, y las situaciones hilarantes no paran. Desde la práctica de la recolección de almas hasta alterar la historia misma, Mort es una aventura que te hará reír, reflexionar y preguntarte si alguna vez quisiste ser aprendiz de la Muerte. ¡Prepárate para un viaje al Mundodisco como ningún otro!",
     category: "Libros",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ3hWCsal6zwy4mftPp60gAKwCCIQVTXI0g0PPES0KduUYBfZaDLoxJby9ApuqXTJ6aitZOE6YwHgzlGLNVesRyBXORSTJwBb13D9p-um8&usqp=CAE",
@@ -457,7 +458,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Los colores se elegirán aleatoriamente entre los más floridos de cada semana a menos que se indique por correo los colores deseados.",
+      "Este rosal es como el rockstar de tu jardín. Sus flores son como estrellas brillantes en el escenario, y su aroma te transporta a un paraíso floral. Con espinas sutiles, se defiende como un rockero duro, pero su belleza es su carta de presentación. Puedes plantarlo en tu jardín o en una maceta para llevarlo de gira por tu patio. No necesita una fanática obsesión, pero un poco de atención y cariño lo harán lucir aún más increíble. Desde rosas rojas apasionadas hasta delicados tonos pastel, este rosal es una explosión de color y fragancia que hará que tu jardín se sienta como un concierto al aire libre. ¡Prepárate para recibir aplausos!",
     category: "Jardinería",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSmaovHYuDxRwovP7ZQZz9-IGq3kmzcjBaBtCgNrYY0kL5aOKZB4ACYponLvQgG4qjQIihQ6MN9gW9Cz9KNPmlBGcTpkneWf7DkZi3fAX7HEPMajNQ_USr_Lg&usqp=CAE",
@@ -476,7 +477,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Se puede utilizar para jardines públicos, privados o campos de deporte",
+      "¡Estas semillas de césped son como magia en un paquete! Si estás buscando un césped verde y exuberante en tu jardín, este es tu boleto. Plantar estas semillas es como el comienzo de una historia de crecimiento. Imagina tu jardín transformándose en un manto de suavidad, perfecto para juegos, picnics y siestas al aire libre. Con un poco de sol y agua, estas semillas se convertirán en el paraíso de cualquier pie descalzo. Además, son resistentes y se adaptan a diferentes tipos de suelo. Así que si sueñas con un césped digno de portada de revista, ¡estas semillas son tu secreto! ¡Haz crecer tu propio Edén verde!",
     category: "Jardinería",
     image:
       "http://i1.wp.com/abonosconde.com/wp-content/uploads/2016/03/semilla-cesped-800x600.jpg",
@@ -495,7 +496,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Multiprocesadores NVIDIA Ampere Streaming Los componentes básicos de las GPU más rápidas y eficientes del mundo, el nuevo Ampere SM ofrece el doble de rendimiento FP32 y una eficiencia energética mejorada.",
+      "¿Listo para llevar tus gráficos al siguiente nivel? Esta tarjeta gráfica es como un cohete para tu PC. Con su potencia de procesamiento y gráficos de alta gama, los juegos y aplicaciones más intensos se vuelven una brisa. Olvídate de los tiempos de carga lentos y los juegos entrecortados, esta tarjeta es como un atleta olímpico en su mejor forma. Además, tiene suficiente memoria para almacenar todos esos juegos épicos y proyectos multimedia. Su diseño elegante y luces RGB personalizables hacen que tu PC luzca genial. Así que si estás listo para una experiencia de juego y renderización sin igual, esta tarjeta gráfica es tu boleto para el paraíso tecnológico. ¡Prepárate para la acción sin límites!",
     category: "Electrónica",
     image:
       "https://img.pccomponentes.com/articles/43/432064/1343-gigabyte-geforce-rtx-3060-gaming-oc-12gb-gddr6-rev-20.jpg",
@@ -513,7 +514,8 @@ export const products = [
       offer: 21.99,
       onSale: true,
     },
-    description: "Lavar en seco, 100% algodón.",
+    description:
+      "¡Esta camiseta de Hora de Aventuras es más dulce que un pastel de chicle! Con Finn y Jake listos para la acción en el frente, es como llevar la diversión y la aventura en tu pecho. La tela es suave y cómoda, como un abrazo de tus personajes favoritos. Ya sea que quieras lucirla en tu maratón de la serie, en una convención de cómics o simplemente para mostrar tu amor por el mundo mágico de Ooo, esta camiseta es la elección perfecta. ¡Hora de abrocharte la camiseta y aventurarte en el reino de la moda geek! ¡Mathematical!",
     category: "Ropa",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRqbZbu0BwKvoWQGWmSJNwrML17aKZfUllctyNTxrAUTQKXJq_zJnsjMsd5qhKJpKy2DRYYiYKbjA4WlK4V1T4U-SMDTikm3rwb7jMMSKufDUtqjRWrB_UThw&usqp=CAE",
@@ -531,7 +533,7 @@ export const products = [
       offer: 41.99,
       onSale: false,
     },
-    description: "Árbol artificial de 49cm con maceta negra",
+    description: "Este bonsái es como una pizca de zen en una maceta. Con su tamaño compacto y diseño artístico, es la joya verde que tu espacio necesita. Su tronco retorcido cuenta una historia de años de paciencia y cuidado. Mantenerlo en forma es como un ritual relajante, perfecto para canalizar tu energía Zen. Ya sea que seas un maestro en el arte del bonsái o un novato curioso, este pequeño árbol te ayudará a encontrar la calma en medio del caos. Colócalo en tu escritorio, alféizar de la ventana o en cualquier rincón especial de tu hogar. ¡Prepárate para la tranquilidad y la belleza en miniatura!",
     category: "Jardinería",
     image:
       "https://cdn.shopify.com/s/files/1/0550/9002/0422/products/FotosfotografoformatoWEB30_720x.jpg?v=1666879922",
@@ -550,7 +552,7 @@ export const products = [
       onSale: false,
     },
     description:
-      " El diseño simple en negro puro hace de este bolso un artículo de moda clásico y discreto.",
+      "Este bolso es como el compañero perfecto para tus aventuras diarias. Con un montón de espacio para todo lo que necesitas y más, es como el agujero de conejo de los bolsos. Su diseño es súper chic, como si estuvieras a punto de salir en una pasarela de moda. Además, es lo suficientemente resistente como para aguantar el ajetreo y el bullicio de tu día a día sin romperse un solo hilo. Llévalo al trabajo, a la playa o en tu próxima escapada de fin de semana. Es como tu fiel amigo, siempre listo para acompañarte en cualquier aventura. ¡Prepárate para llevar tu estilo a todas partes!",
     category: "Otros",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRYnCdWwhn9VHFzQ2pRBO0J2d7rWeP0ereuRZ7J7Yxo-y_HaqeIq0RUGlgGGpSOqnPzczBNexr3Ilbz4yIoDrYvA2_ENR4CPk5tx9TnoD4&usqp=CAE",
@@ -569,7 +571,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Clima: necesitan calor y humedad, así que lo ideal es que haya un clima que sea húmedo y cálido durante el verano pero seco y frío en invierno",
+      "Este árbol de aguacates es básicamente la promesa de guacamole fresco en tu propio patio trasero. Imagina tener tu propio suministro de aguacates a solo unos pasos de distancia. Este árbol es como un regalo que sigue dando. Con el cuidado adecuado, puedes cultivar tus propios aguacates suaves y deliciosos, perfectos para untar en tostadas o agregar a tus ensaladas. Además, ver crecer este árbol desde un pequeño brote es una experiencia emocionante. Así que si eres amante de los aguacates y tienes un poco de espacio al aire libre, este árbol es una inversión en futuras delicias verdes. ¡Hora de empezar tu propio huerto de guacamole!",
     category: "Jardinería",
     image:
       "https://cdn2.planetahuerto.es/estaticos/imagenes/ficha/121822/121822_1.jpg?fit=crop&w=256&h=256&auto=format&q=100",
@@ -588,7 +590,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Extremadamente suave, cálido y cómodo. Un diseño adorable te queda perfectamente.",
+      "Este pijama de adulto es como un abrazo de osito de peluche después de un largo día. Fabricado con algodón suave y transpirable, es la elección perfecta para dormir cómodo y relajado. Con un diseño relajado y holgado, te dará espacio para moverte mientras duermes como un bebé. Los estampados son divertidos y variados, desde lunares a rayas, para adaptarse a tu estilo. Además, cuenta con una cintura elástica para que no te sientas atrapado ni apretado. Ya sea para una noche de películas o una noche de sueño profundo, este pijama es como tu uniforme de comodidad. ¡Hora de acurrucarse y soñar en grande!",
     category: "Ropa",
     image:
       "https://img.ltwebstatic.com/images3_pi/2021/11/20/163737872804d1b14a6dd58df3dc60c2b026aba08a_thumbnail_900x.webp",
@@ -607,7 +609,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "las aplicaciones se cargan más rápido, los gráficos funcionan mejor y la multitarea es más eficiente en este PC portátil con memoria RAM de 4 GB, tarjeta gráfica integrada Intel UHD y procesador Intel Celeron N4500",
+      "Este ordenador portátil es como un paquete de poder en un tamaño compacto. Con su procesador veloz y toneladas de almacenamiento, es como llevar una supercomputadora en tu mochila. La pantalla nítida es como una ventana a un mundo de colores y detalles. Además, es tan ligero que ni notarás que lo llevas contigo. ¿Quieres hacer malabares con hojas de cálculo, editar fotos o jugar a juegos épicos? Este portátil es como tu compañero multitarea perfecto. Y la batería dura tanto que puedes dejar el cargador en casa. Ya sea que seas un estudiante en busca de eficiencia o un profesional en movimiento, este portátil es tu billete para la productividad en cualquier lugar. ¡Prepárate para conquistar el mundo digital!",
     category: "Electrónica",
     image:
       "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/in3520-xnb-01-sl.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,1&resMode=sharp2&size=402,402&chrss=full",
