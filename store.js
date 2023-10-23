@@ -19,7 +19,7 @@ export const products = [
     },
   },
   {
-    id: 10,
+    id: 2,
     title: "Crema hidratante",
     price: {
       main: 3.99,
@@ -38,7 +38,7 @@ export const products = [
     },
   },
   {
-    id: 20,
+    id: 3,
     title: "Portátil gaming",
     price: {
       main: 1499,
@@ -57,7 +57,7 @@ export const products = [
     },
   },
   {
-    id: 30,
+    id: 4,
     title: "Camiseta antisocial",
     price: {
       main: 16.99,
@@ -76,7 +76,7 @@ export const products = [
     },
   },
   {
-    id: 40,
+    id: 5,
     title: "El señor de las moscas",
     price: {
       main: 10.99,
@@ -95,7 +95,7 @@ export const products = [
     },
   },
   {
-    id: 50,
+    id: 6,
     title: "Zapatillas",
     price: {
       main: 16.99,
@@ -114,7 +114,7 @@ export const products = [
     },
   },
   {
-    id: 60,
+    id: 7,
     title: "Tableta gráfica",
     price: {
       main: 59.99,
@@ -132,7 +132,7 @@ export const products = [
     },
   },
   {
-    id: 70,
+    id: 8,
     title: "Harry Potter",
     price: {
       main: 169.99,
@@ -150,7 +150,7 @@ export const products = [
     },
   },
   {
-    id: 80,
+    id: 9,
     title: "Vestido",
     price: {
       main: 16.99,
@@ -168,7 +168,7 @@ export const products = [
     },
   },
   {
-    id: 90,
+    id: 10,
     title: "Semillas de tomate",
     price: {
       main: 2.99,
@@ -187,7 +187,7 @@ export const products = [
     },
   },
   {
-    id: 100,
+    id: 11,
     title: "Collar",
     price: {
       main: 223.99,
@@ -205,7 +205,7 @@ export const products = [
     },
   },
   {
-    id: 110,
+    id: 12,
     title: "Por si las voces vuelven",
     price: {
       main: 20.99,
@@ -224,7 +224,7 @@ export const products = [
     },
   },
   {
-    id: 120,
+    id: 13,
     title: "2 x RAM",
     price: {
       main: 59.99,
@@ -242,7 +242,7 @@ export const products = [
     },
   },
   {
-    id: 130,
+    id: 14,
     title: "Tacones",
     price: {
       main: 699.99,
@@ -261,7 +261,7 @@ export const products = [
     },
   },
   {
-    id: 140,
+    id: 15,
     title: "Herramientas de jardinería",
     price: {
       main: 20.99,
@@ -280,7 +280,7 @@ export const products = [
     },
   },
   {
-    id: 150,
+    id: 16,
     title: "¡Guardias! ¡Guardias!",
     price: {
       main: 20.99,
@@ -299,7 +299,7 @@ export const products = [
     },
   },
   {
-    id: 160,
+    id: 17,
     title: "Cuaderno",
     price: {
       main: 5.99,
@@ -317,7 +317,7 @@ export const products = [
     },
   },
   {
-    id: 170,
+    id: 18,
     title: "Vapeador",
     price: {
       main: 22.99,
@@ -336,7 +336,7 @@ export const products = [
     },
   },
   {
-    id: 180,
+    id: 19,
     title: "Maceta",
     price: {
       main: 5.99,
@@ -355,7 +355,7 @@ export const products = [
     },
   },
   {
-    id: 190,
+    id: 20,
     title: "Camiseta Linux",
     price: {
       main: 15.99,
@@ -374,7 +374,7 @@ export const products = [
     },
   },
   {
-    id: 191,
+    id: 21,
     title: "JavaScript fácil",
     price: {
       main: 20.99,
@@ -393,7 +393,7 @@ export const products = [
     },
   },
   {
-    id: 192,
+    id: 22,
     title: "Cortacésped eléctrico 1300 W",
     price: {
       main: 72.99,
@@ -412,7 +412,7 @@ export const products = [
     },
   },
   {
-    id: 200,
+    id: 23,
     title: "Anillo",
     price: {
       main: 84.99,
@@ -431,7 +431,7 @@ export const products = [
     },
   },
   {
-    id: 210,
+    id: 24,
     title: "Mort",
     price: {
       main: 15.99,
@@ -450,7 +450,7 @@ export const products = [
     },
   },
   {
-    id: 220,
+    id: 25,
     title: "Rosal mini",
     price: {
       main: 5.99,
@@ -469,7 +469,7 @@ export const products = [
     },
   },
   {
-    id: 230,
+    id: 26,
     title: "Semillas de césped",
     price: {
       main: 5.99,
@@ -488,7 +488,7 @@ export const products = [
     },
   },
   {
-    id: 240,
+    id: 27,
     title: "Tarjeta gráfica",
     price: {
       main: 599.99,
@@ -507,7 +507,7 @@ export const products = [
     },
   },
   {
-    id: 250,
+    id: 28,
     title: "Camiseta de hora de aventuras",
     price: {
       main: 22.99,
@@ -526,7 +526,7 @@ export const products = [
     },
   },
   {
-    id: 251,
+    id: 29,
     title: "Bonsai Terra",
     price: {
       main: 52.99,
@@ -545,7 +545,7 @@ export const products = [
     },
   },
   {
-    id: 260,
+    id: 30,
     title: "Bolso",
     price: {
       main: 15.99,
@@ -564,7 +564,7 @@ export const products = [
     },
   },
   {
-    id: 270,
+    id: 31,
     title: "Aguacate",
     price: {
       main: 18.99,
@@ -583,7 +583,7 @@ export const products = [
     },
   },
   {
-    id: 271,
+    id: 32,
     title: "Pijama de adulto",
     price: {
       main: 24.99,
@@ -602,7 +602,7 @@ export const products = [
     },
   },
   {
-    id: 280,
+    id: 33,
     title: "Ordenador portátil",
     price: {
       main: 1999.99,
@@ -621,7 +621,7 @@ export const products = [
     },
   },
   {
-    id: 290,
+    id: 34,
     title: "Pulsera",
     price: {
       main: 422.99,
@@ -640,7 +640,7 @@ export const products = [
     },
   },
   {
-    id: 300,
+    id: 35,
     title: "Naranjo",
     price: {
       main: 15.99,
@@ -659,7 +659,7 @@ export const products = [
     },
   },
   {
-    id: 301,
+    id: 36,
     title: "Calcetines World of Warcraft",
     price: {
       main: 2.99,
@@ -677,7 +677,7 @@ export const products = [
     },
   },
   {
-    id: 302,
+    id: 37,
     title: "Taza CSS",
     price: {
       main: 20.99,
@@ -696,7 +696,7 @@ export const products = [
     },
   },
   {
-    id: 310,
+    id: 38,
     title: "El color de la magia",
     price: {
       main: 17.99,
@@ -715,7 +715,7 @@ export const products = [
     },
   },
   {
-    id: 320,
+    id: 39,
     title: "Ebook",
     price: {
       main: 59.99,
@@ -734,7 +734,7 @@ export const products = [
     },
   },
   {
-    id: 330,
+    id: 40,
     title: "Agenda",
     price: {
       main: 5.99,
@@ -753,7 +753,7 @@ export const products = [
     },
   },
   {
-    id: 340,
+    id: 41,
     title: "Smartwatch",
     price: {
       main: 45.99,
@@ -772,7 +772,7 @@ export const products = [
     },
   },
   {
-    id: 350,
+    id: 42,
     title: "Azucenas",
     price: {
       main: 8.99,
@@ -791,7 +791,7 @@ export const products = [
     },
   },
   {
-    id: 360,
+    id: 43,
     title: "Manguera",
     price: {
       main: 22.99,
@@ -810,7 +810,7 @@ export const products = [
     },
   },
   {
-    id: 361,
+    id: 44,
     title: "Si no te ríes, es peor",
     price: {
       main: 12.99,
