@@ -533,7 +533,8 @@ export const products = [
       offer: 41.99,
       onSale: false,
     },
-    description: "Este bonsái es como una pizca de zen en una maceta. Con su tamaño compacto y diseño artístico, es la joya verde que tu espacio necesita. Su tronco retorcido cuenta una historia de años de paciencia y cuidado. Mantenerlo en forma es como un ritual relajante, perfecto para canalizar tu energía Zen. Ya sea que seas un maestro en el arte del bonsái o un novato curioso, este pequeño árbol te ayudará a encontrar la calma en medio del caos. Colócalo en tu escritorio, alféizar de la ventana o en cualquier rincón especial de tu hogar. ¡Prepárate para la tranquilidad y la belleza en miniatura!",
+    description:
+      "Este bonsái es como una pizca de zen en una maceta. Con su tamaño compacto y diseño artístico, es la joya verde que tu espacio necesita. Su tronco retorcido cuenta una historia de años de paciencia y cuidado. Mantenerlo en forma es como un ritual relajante, perfecto para canalizar tu energía Zen. Ya sea que seas un maestro en el arte del bonsái o un novato curioso, este pequeño árbol te ayudará a encontrar la calma en medio del caos. Colócalo en tu escritorio, alféizar de la ventana o en cualquier rincón especial de tu hogar. ¡Prepárate para la tranquilidad y la belleza en miniatura!",
     category: "Jardinería",
     image:
       "https://cdn.shopify.com/s/files/1/0550/9002/0422/products/FotosfotografoformatoWEB30_720x.jpg?v=1666879922",
@@ -628,7 +629,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Diseñada para perdurar en el tiempo: las joyas Swarovski lucen por si solas gracias al brillo y la talla del cristal junto a los metales más resistentes; evita el agua, las lociones o el perfume.",
+      "¡Esta pulsera es como un toque de estilo en tu muñeca! Con su diseño elegante y moderno, es el complemento perfecto para cualquier ocasión. La mezcla de materiales, desde cuero hasta metal, le da un toque único y versátil. Es tan cómoda que ni siquiera notarás que la llevas puesta. Además, su cierre seguro te da la tranquilidad de que no la perderás en medio de tus aventuras diarias. Ya sea para una cena elegante, una reunión casual con amigos o para agregar un poco de actitud a tu atuendo, esta pulsera es como tu firma de estilo personal. ¡Listo para lucir genial en cualquier momento!",
     category: "Otros",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTVOeNkoJ8VitwNrlFwkweTnmANVjVajVmVmtymmZCaEsID_Knr1sSbaD1fakibdcHFLndi1f2-ZFcCEFQSLmXtLbOCWa8ibg&usqp=CAY",
@@ -647,7 +648,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Naranjas de sabor suave, equilibrado, dulce y con mucho zumo. La naranja es una fruta con alto contenido en antioxidantes, vitamina C, vitamina B9, potasio, calcio y fósforo",
+      "Este árbol de naranjo es como un rayo de sol en tu propio jardín. Imagina tener tus propias naranjas frescas listas para cosechar. Este árbol es como la fuente de vitaminas que necesitas. Con su aroma a cítricos y la promesa de jugo de naranja recién exprimido, es la belleza que seguirá dando año tras año. Además, verlo florecer y dar fruto es como un espectáculo en constante cambio. Así que si eres amante de los cítricos y tienes un espacio soleado, este árbol de naranjo es el regalo que sigue creciendo. ¡Hora de darle vida a tu propio rincón de jugo de naranja!",
     category: "Jardinería",
     image:
       "https://decoandlemon.com/media/catalog/product/cache/3ad20444762bbdde6309c9935a0d8d33/7/4/74020033_1.jpg",
@@ -666,7 +667,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Calcetines de talla única. Ideales para defender Azeroth con los pies bien calentitos. Versión de la horda.",
+      "Estos calcetines de World of Warcraft son como un portal mágico directo a Azeroth para tus pies. Con un diseño que rinde homenaje a tu juego favorito, son la manera perfecta de mostrar tu amor por WoW mientras mantienes tus pies calientes y cómodos. Ya sea que estés planeando tu próxima incursión o simplemente descansando en Orgrimmar, estos calcetines te harán sentir como un verdadero héroe del juego. Son suaves, elásticos y listos para enfrentar cualquier aventura, desde mazmorras hasta misiones diarias. Así que si quieres llevar tu pasión por Warcraft al siguiente nivel, estos calcetines son el accesorio que te falta. ¡For the Horde!",
     category: "Ropa",
     image: "https://static.posters.cz/image/750webp/101150.webp",
     stock: 54,
@@ -684,7 +685,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Los sitios web de hoy no existirían sin CSS y, seamos honestos, todos lo sabemos. Para el diseñador web o desarrollador en su vida que ama CSS, ¡esta taza es el regalo perfecto! Es una forma divertida y única de mostrar cuánto aprecias su pasión por hacer sitios web hermosos.",
+      "¡Esta taza es como un abrazo para tu café o té de la mañana! Con las palabras 'I Love CSS' en negrita, es la declaración perfecta para todos los amantes de la codificación y el diseño web. La taza es robusta y resistente, como un buen código bien estructurado. Además, el asa es cómoda de agarrar, lo que la convierte en tu compañera perfecta para las largas sesiones de programación. Ya sea que estés resolviendo problemas de diseño o ajustando tus hojas de estilo, esta taza es como un recordatorio constante de tu pasión por el CSS. ¡Así que prepárate para disfrutar de tu bebida favorita con un toque geek de estilo!",
     category: "Otros",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRZ2T1-8KRFWwA86fyfomQt07aHYyk1Yt4u38KfRO5Dlbt5VT33vJY6rzWyRPhB-5x5hdinAoTwyrQsijNw8socDSWLnYPi5_lt50D3O3Kaf5FJyDueUaVHy_S2&usqp=CAE",
@@ -703,7 +704,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "En un mundo plano sostenido por cuatro elefantes impasibles -que se apoyan en la espalda de una tortuga gigante- habitan los estrafalarios personajes de esta novela: un hechicero avaro y torpe, un turista ingenuo cuyo fiero equipaje le sigue a todas partes sostenido por cientos de patitas, dragones que solo existen si se cree en ellos, gremios de ladrones y asesinos, espadas mágicas, la Muerte y, por supuesto, un extenso catálogo de magos y demonios...",
+      "'El Color de la Magia' es como un viaje a un mundo completamente chiflado. Este libro de Terry Pratchett te lleva a un lugar tan disparatado como fascinante, el Mundodisco, un mundo plano sostenido por cuatro elefantes que a su vez están encima de una tortuga gigante. Siguiendo las desventuras de Rincewind, el mago más inepto de la historia, y Dosflores, un turista un poco confundido, te sumergirás en una trama repleta de caos, criaturas extrañas y mucho humor. Es una obra maestra de la fantasía humorística que te hará soltar carcajadas mientras exploras un universo tan absurdo como genial. Si buscas algo completamente fuera de lo común, este libro es tu portal a la diversión sin fin. ¡Prepárate para el caos controlado del Mundodisco!",
     category: "Libros",
     image:
       "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAovZponiUVlo7iDcgOTS5BzYGtXIi1xYEM0TgjqeW5wVN4KwtjjI44aZ_srznwC4TcW4c0Uee2O_ZwVtcJmVO8ni4rLd-deuzyipyd0wIxO-EIzCgGYd7Qw&usqp=CAE",
@@ -722,7 +723,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Ahora con una pantalla de 6,8 pulgadas, bordes reducidos, luz cálida ajustable, autonomía de hasta 10 semanas y pasos de página un 20 % más rápidos.",
+      "Este ebook es como tener una biblioteca en tu bolsillo. Ligero, compacto y lleno de historias por descubrir, es la forma perfecta de llevar tu lectura a todas partes. Con una pantalla nítida y luz ajustable, puedes leer de día, de noche, en el parque o en tu cama sin ningún problema. Además, puedes tener cientos de libros en un solo dispositivo, ahorrando espacio en tu estantería y en tu mochila. Ya sea que quieras sumergirte en una novela de misterio, explorar mundos de fantasía o aprender algo nuevo, este ebook es como un boleto a un universo de posibilidades. ¡Prepárate para llevar tu pasión por la lectura a un nivel completamente nuevo!",
     category: "Electrónica",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4Zjn6A957H_o9yWKj14dVnudevuzclBWDtqUovF8zE62f1oTmW0nuTM8LxnW0j37upUXpalvUM4fYKKUgDmXEr072L4jsK01gYt_jRffApkafrOyPKaCuTA&usqp=CAE",
@@ -741,7 +742,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Duración: Septiembre 2022 - Junio 2023 (curso lectivo) + Julio y Agosto resumidos",
+      "Esta agenda es como tu asistente personal en papel. Con un diseño elegante y un montón de espacio para tus planes y notas, es como llevar tu vida organizada en tu bolso o mochila. Puedes llevar un registro de tus citas, tareas pendientes y metas, como si fueras un superhéroe de la productividad. Además, tiene un montón de páginas en blanco para tus pensamientos, ideas o incluso garabatos creativos. Y si eres un amante de las pegatinas y los marcadores de colores, esta agenda es como tu lienzo en blanco para personalizar como quieras. Así que si quieres mantenerte al tanto de tu ajetreada vida y aún verte bien haciéndolo, ¡esta agenda es tu mejor amiga!",
     category: "Otros",
     image:
       "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzgANDfQhq9YTZACQXTtwQn62l16NHCCApszF7SUh9XmEsZeVikuERkNnHWYneJ8jtCrqKOJ2UpQi6vM4274UKdsM_EGzishuAbDN-UmBg1N1XzjRAnRVQ&usqp=CAE",
@@ -760,7 +761,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Durante las actividades diarias y los descansos, los sensores de movimiento de alto rendimiento monitorean la frecuencia cardíaca, el estado del sueño (sueño profundo, sueño superficial, despertar).",
+      "Este smartwatch es como tener un mini teléfono y un entrenador personal en tu muñeca. Con su pantalla táctil brillante y muchas funciones geniales, es como tener a James Bond como tu mejor amigo tecnológico. Puedes recibir notificaciones de tus mensajes, correos electrónicos y redes sociales sin sacar tu teléfono del bolsillo. Además, rastrea tu actividad física, desde tus pasos hasta tu ritmo cardíaco, para mantenerte en forma y saludable. Y, por si fuera poco, puedes cambiar las carátulas para que combine con tu estilo en cada ocasión. Si buscas la última tecnología en un paquete elegante y cómodo, este smartwatch es como un sueño hecho realidad. ¡Prepárate para llevar la muñeca al siguiente nivel!",
     category: "Electrónica",
     image:
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSXw7_EkpwH2VyLTNNJ5WC0bZ6b6mI9xu7vb7z6IetVWIFJS1J7nZMWsGxSH2-csv0EOZn520eFzCeRjJaCV13D6CD6K1Tbo4ySzXfs-n46sf-HUMFTljQZ",
@@ -779,7 +780,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Son plantas con órganos subterráneos que sirven para garantizar periódicamente la supervivencia de la especie en la época más desfavorable del año. ",
+      "Estas azucenas son como las estrellas de rock de tu jardín. Con sus flores blancas elegantes y su aroma dulce y embriagador, son la belleza personificada. Además, son tan resistentes que podrían sobrevivir a un apocalipsis zombie (bueno, casi). Plantarlas es como darle a tu jardín un toque de elegancia natural. No necesitan un tratamiento especial, solo un poco de sol y agua ocasional, y te recompensarán con flores gloriosas año tras año. Ya sea que quieras impresionar a tus vecinos con tu pulgar verde o simplemente añadir un toque de encanto al paisaje, estas azucenas son como la guinda del pastel de tu jardín. ¡Prepárate para que tu patio se llene de elegancia floral!",
     category: "Jardinería",
     image:
       "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRVLFW4XzOP-1d8gvhnI9RiYXxlAXjFGsuiUTdnoeSmtjgz7iZptUkAxZRLo--nhecn4fOaIZ8FoeAIe8d0i30yeaZrGy0CHiu1R1ymvSQUkbulmFIg8IdP&usqp=CAE",
@@ -798,7 +799,7 @@ export const products = [
       onSale: true,
     },
     description:
-      "Para regar el césped, las plantas, las flores, las jardineras, los árboles o los arbustos. También puede utilizarse para limpiar los muebles de jardín, la terraza o para lavar los coches.",
+      "Esta manguera es como el superhéroe del riego en tu jardín. Con su longitud generosa y resistencia a los enredos, es como la herramienta que hace que mantener tus plantas sea pan comido. Puedes regar desde un extremo al otro de tu jardín sin problemas. Además, es tan fácil de almacenar que no tendrás que lidiar con enredos de manguera nunca más. Su boquilla ajustable te permite elegir entre un rociado suave o un chorro poderoso, como si tuvieras control total sobre la lluvia. Si buscas una forma sencilla y eficiente de cuidar tus plantas o lavar tu coche, esta manguera es como tu compañera infalible. ¡Prepárate para hacer que tu jardín luzca increíble y tu coche brille como nuevo!",
     category: "Jardinería",
     image:
       "https://cdn.shopify.com/s/files/1/0249/3674/2966/products/7_5mexpandablegardenhosewithspraygun_1_2000x.jpg?v=1650146713",
@@ -817,7 +818,7 @@ export const products = [
       onSale: false,
     },
     description:
-      "Si no te ríes, es peor. El gran libro de los chistes es un libro desternillante para llevar a todas partes y compartir con tus amigos. Diviértete con sus chistes, bromas y juegos de palabras que harán reír a quienquiera que se los cuentes. ¿Sabes por qué viene del mar el marisco? ¡Porque si viniera de Francia sería el Francisco!",
+      "'Si no te ríes, es peor' es como un viaje a un mundo de risas descontroladas. Este libro está lleno de anécdotas cómicas, chistes y situaciones que te harán doblarte de la risa. Desde momentos embarazosos en público hasta divertidas historias cotidianas, cada página es como un billete de ida a un parque de diversiones de humor. Ideal para esos días en los que necesitas un impulso de alegría, o para compartir con amigos y familiares en una reunión. Si buscas una dosis de risas y entretenimiento, este libro es tu receta perfecta para pasar un buen rato y alejar el aburrimiento. ¡Prepárate para soltar carcajadas sin medida!Si no te ríes, es peor. El gran libro de los chistes es un libro desternillante para llevar a todas partes y compartir con tus amigos. Diviértete con sus chistes, bromas y juegos de palabras que harán reír a quienquiera que se los cuentes. ¿Sabes por qué viene del mar el marisco? ¡Porque si viniera de Francia sería el Francisco!",
     category: "Libros",
     image:
       "https://m.media-amazon.com/images/I/51f2wqTp1-L._SX345_BO1,204,203,200_.jpg",
